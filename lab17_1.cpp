@@ -40,7 +40,7 @@ void showData(double *a, int N, int M)
 	for(int i = 0; i < N*M; i++)
 	{
 		cout << *(a+i);
-        if((i+1)%M == 0 || i+1 == M) cout << endl;
+        if((i+1)%M == 0) cout << endl;
         else cout << " ";
 	}
 }
